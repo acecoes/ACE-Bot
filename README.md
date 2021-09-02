@@ -30,31 +30,31 @@ Note that comments will disappear as the file is overwritten during runtime.
 ```yaml
 # Discord Section
 discord:
-	# Discord bot token
-	bot_token: BOT_TOKEN
-	# #officers channel id
-	officer_channel: CHANNEL_ID
-	# Discord presence
-	presence:
-		gametype: 3
-		presence: The Cyberspace
-		url: null
+  # Discord bot token
+  bot_token: BOT_TOKEN
+  # #officers channel id
+  officer_channel: CHANNEL_ID
+  # Discord presence
+  presence:
+    gametype: 3
+    presence: The Cyberspace
+    url: null
 
 # GroupMe section
 groupme:
 
-	# Group Id of the bot found at dev.groupme.com
-	bot_groupid: GROUP_ID
-	# Bot ID
-	bot_id: BOT_ID
+  # Group Id of the bot found at dev.groupme.com
+  bot_groupid: GROUP_ID
+  # Bot ID
+  bot_id: BOT_ID
 
-	# YOUR Access Token. Do not share this with anyone as they can impersonate you on GroupMe!
-	bot_token: YOURACCESSTOKEN
+  # YOUR Access Token. Do not share this with anyone as they can impersonate you on GroupMe!
+  bot_token: YOURACCESSTOKEN
 
-	# DO NOT TOUCH, this is for dynamic message handling. Script starts reading new messages from last_msg.
-	# This is so restarting the bot doesn't re-relay a bunch of messages back into the Discord
-	last_msg: 0
+  # DO NOT TOUCH, this is for dynamic message handling. Script starts reading new messages from last_msg.
+  # This is so restarting the bot doesn't re-relay a bunch of messages back into the Discord
+  last_msg: 0
 
-	# Second interval between pinging the GroupMe for new messages
-	sleep_time: 10.0
+  # Second interval between pinging the GroupMe for new messages
+  sleep_time: 10.0
 ```
