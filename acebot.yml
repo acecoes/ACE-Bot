@@ -1,0 +1,13 @@
+discord:
+  bot_token: BOT_TOKEN
+  officer_channel: CHANNEL_ID
+  presence:
+    gametype: 3
+    presence: The Cyberspace
+    url: null
+groupme:
+  bot_groupid: GROUP_ID
+  bot_id: BOT_ID
+  bot_token: YOURACCESSTOKEN
+  last_msg: 0
+  sleep_time: 10.0
