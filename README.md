@@ -10,6 +10,29 @@ This is the script for the ACE Discord bot. It's main purpose (for now) is to re
 
 If you need a machine to host the bot, you can use something simple like Linode or Vultr. I don't think Tech allows you to use their VM's for perpetual use. You could also use a RaspPi and stick it in the corner of your dorm or something.
 
+### Installation ###
+
+Clone.
+
+Requires Python3 and `screen` if you aren't hosting from a RaspPi.
+
+Edit the YAML config.
+
+```sh
+pip install -r requirements.txt 
+```
+or
+```sh
+pip3 install -r requirements.txt 
+```
+
+Set script files runnable
+```sh
+chmod +x run.sh acebot.py
+```
+
+Run `run.sh`.
+
 ### For Future Officers ###
 
 You need to do this every year (probably):
@@ -23,7 +46,7 @@ Also note if you're testing on Windows, shutting the script down will most likel
 If you want to be cool, you can set up a public facing webserver to receive post requests from GroupMe instead of pinging the channel every few seconds.
 
 
-#### YAML Config ####
+### YAML Config ###
 
 Note that comments will disappear as the file is overwritten during runtime.
 
